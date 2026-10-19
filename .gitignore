@@ -1,0 +1,28 @@
+# .gitignore
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+log/
+.settings/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Node
+node_modules/
+/dist
+
+# Docker
+**.env
+
+# OS
+.DS_Store
+Thumbs.db
